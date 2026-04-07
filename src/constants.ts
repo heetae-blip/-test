@@ -1,3 +1,11 @@
+import rocheLogo from './assets/roche.png';
+import biosystemsLogo from './assets/biosystems.png';
+import werfenLogo from './assets/werfen.png';
+import abbottLogo from './assets/abbott.png';
+import fujifilmLogo from './assets/fujifilm.png';
+import sysmexLogo from './assets/sysmex.png';
+import othersLogo from './assets/others.png';
+
 export interface BusinessItem {
   brand: string;
   items: string[];
@@ -20,11 +28,11 @@ export const PARTNERS = [
 ];
 
 export const BUSINESS_ITEMS: BusinessItem[] = [
-  { brand: 'Roche', items: ['Cobas e411', 'Cobas c503', 'Cobas e801', 'Cobas Pure c303', 'Cobas Pure e402', 'Cobas c311', 'Cobas u411', 'Cobas t511', 'Cobas b123', 'Cobas 6500'], image: '/roche.png' },
-  { brand: 'Bio Systems', items: ['BA400', 'BA200', 'A25', 'A15'], image: '/biosystems.png' },
-  { brand: 'Werfen', items: ['TOP 550', 'TOP 350', 'GEM 5000'], image: '/werfen.png' },
-  { brand: 'Abbott', items: ['ALINITY', 'ARCHITECT'], image: '/abbott.png' },
-  { brand: 'FUJI FILM', items: ['FDC NX-600', 'FDC NX 10NE'], image: '/fujifilm.png' },
-  { brand: 'Sysmex', items: ['XN-1000', 'XN-550', 'XQ-520', 'XP-300', 'XR-1000', 'CA-620'], image: '/sysmex.png' },
-  { brand: '기타', items: ['AFIAS', 'TOSHO (G11)', 'SD BIOSENSOR', 'BIOMERIEUX'], image: '/others.png' },
+  { brand: 'Roche', items: ['Cobas e411', 'Cobas c503', 'Cobas e801', 'Cobas Pure c303', 'Cobas Pure e402', 'Cobas c311', 'Cobas u411', 'Cobas t511', 'Cobas b123', 'Cobas 6500'], image: rocheLogo },
+  { brand: 'Bio Systems', items: ['BA400', 'BA200', 'A25', 'A15'], image: biosystemsLogo },
+  { brand: 'Werfen', items: ['TOP 550', 'TOP 350', 'GEM 5000'], image: werfenLogo },
+  { brand: 'Abbott', items: ['ALINITY', 'ARCHITECT'], image: abbottLogo },
+  { brand: 'FUJI FILM', items: ['FDC NX-600', 'FDC NX 10NE'], image: fujifilmLogo },
+  { brand: 'Sysmex', items: ['XN-1000', 'XN-550', 'XQ-520', 'XP-300', 'XR-1000', 'CA-620'], image: sysmexLogo },
+  { brand: '기타', items: ['AFIAS', 'TOSHO (G11)', 'SD BIOSENSOR', 'BIOMERIEUX'], image: othersLogo },
 ];

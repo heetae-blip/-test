@@ -74,6 +74,7 @@ const Home = () => {
                 src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000" 
                 alt="Hospital Interior" 
                 className="w-full h-full object-cover opacity-90"
+                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute bottom-8 left-8 right-8">
