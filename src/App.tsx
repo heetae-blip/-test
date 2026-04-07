@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import { Menu, X, ChevronRight, Phone, Mail, MapPin, BarChart3, Building2, Briefcase, Home as HomeIcon, Settings, Activity } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from './lib/utils';
+import logo from './assets/logo.png';
 
 // Pages
 import Home from './pages/Home';
@@ -18,7 +19,7 @@ const Logo = ({ className = "h-10" }: { className?: string }) => {
     <div className={cn(className, "flex items-center justify-center shrink-0")}>
       {!imageError ? (
         <img
-          src="/logo.png"
+          src={logo}
           alt="YS Logo"
           className="h-full w-auto object-contain"
           referrerPolicy="no-referrer"
